@@ -8,6 +8,8 @@ int main ()
 	int mm;
 	int dd;
 	int yyyy;
+	do
+	{
 	cout<<"Please enter month number: ";
 	cin>>mm;
 	cout<<"Please enter date: ";
@@ -69,7 +71,7 @@ int main ()
 					else if (mm >12  && dd <= 31  && yyyy < 1999)
 				cout <<"Invalid date"<< endl;
 				
-						
+	}					
 		
 	return 0;
 }

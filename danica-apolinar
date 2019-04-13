@@ -71,8 +71,11 @@ int main ()
 					else if (mm >12  && dd <= 31  && yyyy < 1999)
 				cout <<"Invalid date"<< endl;
 				
+				cout <<"\n" << endl;
 	}					
-		
+	
+	while (mm, dd, yyyy !=0);
+
 	return 0;
 }
 	
